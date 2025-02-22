@@ -18,7 +18,7 @@ const AppSider = () => {
         <Card key={asset.id} style={{ marginBottom: "1rem" }}>
           <Statistic
             title={capitalize(asset.id)}
-            value={asset.totalAmout}
+            value={asset.totalAmount}
             precision={2}
             valueStyle={{ color: asset.grow ? "#3f8600" : "#cf1322" }}
             prefix={asset.grow ? <ArrowUpOutlined /> : <ArrowDownOutlined />}
